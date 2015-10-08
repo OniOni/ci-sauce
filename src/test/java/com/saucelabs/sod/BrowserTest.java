@@ -29,7 +29,6 @@ public class BrowserTest  {
         assertEquals("Platform is not Linux", browser.getPlatform(), Platform.LINUX);
     }
 
-    @Test
     public void browserList() throws Exception {
 
         BrowserFactory factory = new BrowserFactory(sauceREST);
